@@ -1,0 +1,99 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+
+	align-items: center;
+}
+ul {
+	display: flex;
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+}
+h4 {
+	color: white;
+}
+ul :first-child {
+	font-size: 30px;
+}
+.texte {
+	color: white;
+	display: flex;
+	font-size: 1.5em;
+}
+h1 {
+	text-align: center;
+	font-size: 5em;
+	color: white;
+	font-family: sans-serif;
+}
+.texte img {
+	width: 800px;
+}
+main {
+	background-color: black;
+}
+.Media img {
+	display: block;
+	margin: auto;
+}
+.Media {
+	color: white;
+	font-size: 1.5em;
+}
+#mobile {
+	margin: 50px;
+    
+}
+#hacker img {
+    height: 680px;
+    width: 1900px;
+}
+
+
+footer {
+	color: white;
+	background: black;
+	text-align: center;
+}
+#Dev {
+	background-color: #1f1f1f;
+}
+@media only screen and (max-width: 430px){
+    #hacker img{
+        width: 400px;
+        height: 160px;
+        border-bottom: 20px solid black;
+    }
+    #H1{
+        width: 98%;
+        font-size: 0.5em;
+    }
+    .H1{
+        width: 98%;
+        font-size: 0.5em;
+    }
+    .texte{
+        display: inline;
+    }
+    .texte img{
+        width: 400px;
+        height: 160px;
+    }
+    img{
+        width: 100%;
+    }
+    #mobile{
+        margin: 0;
+    }
+    #mobile img{
+        width: 430px;
+        height: 260px;
+      
+    }
+}
